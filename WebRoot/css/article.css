@@ -1,0 +1,19 @@
+article .article-body{
+	text-align:left;
+	min-height:200px;
+	padding-top:20px;
+	line-height:25px;
+	letter-spacing: 1;
+}
+
+article .article-body p{
+	text-indent:2em;
+}
+
+body{
+	background-color:#f2e7ca;
+}
+
+article .article-foot span{
+	padding-left:10px;
+}

@@ -1,0 +1,52 @@
+.article-folder-view{
+	border:1px solid #cccccc;
+	margin-top:2px;
+	min-height:400px;
+
+}
+
+.article-folder-view div{
+	margin:10px 5px;
+	width:80px;
+	max-height:100px;
+	display:inline-block;
+	text-align:center;
+	vertical-align: top;
+	
+}
+
+.article-folder-view a,.article-folder-view a:hover,.article-folder-view a:visited{
+	color:#42ddcb;
+}
+
+.article-view-sort{
+	display:inline-block;
+}
+
+
+.article-pagination{
+	vertical-align:middle;
+	display:inline-block;
+	margin-left:20px;
+}
+
+.article-pagination .pagination{
+	margin:0px;
+}
+
+.tree-header{
+	border-color:#99CC99;
+	background-color:#99CC99;
+	border-style:solid;
+	border-width:1px;
+	height:40px;
+	padding-left:10px;
+	vertical-align: middle;
+}
+
+#ztree{
+	border-color:#99CC99;
+	border-style:solid;
+	border-width:0.5px;
+	height:100%;
+}

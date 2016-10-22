@@ -1,0 +1,50 @@
+.search-title{
+	padding:20px 0px;
+	width:500px;
+	margin-left:50px;
+}
+
+.search-title a{
+	font-weight: bold;
+	font-family: "黑体";
+	font-size: 16px;
+	color:black;
+	margin:0px 10px;
+}
+
+.search-title .active{
+	color:red;
+}
+
+.hot-search{
+	font-family: "microsoft yahei";
+	font-size:14px;
+	font-weight: bold;
+}
+
+.hot-search table {
+	margin-top:10px;
+	font-family: "microsoft yahei";
+	font-weight: normal;
+}
+
+.hot-search .first,.hot-search .first a,.hot-search .first a:hover{
+	color:#F91A12;
+}
+.hot-search .second,.hot-search .second a,.hot-search .second a:hover
+{
+	color:#E115d7;
+}
+.hot-search .third,.hot-search .third a,.hot-search .third a:hover
+{
+	color:#41cd1a;
+}
+
+.hot-search table,.hot-search  a,.hot-search  a:hover{
+	color:grey;
+}
+
+
+.list-group .list-group-item{
+	border:0px;
+}

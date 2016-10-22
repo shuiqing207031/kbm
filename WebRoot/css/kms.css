@@ -1,0 +1,101 @@
+
+.navbar{
+	margin-bottom:0px;
+}
+.navbar-header{
+ 	padding-left:150px;
+}
+
+.nav-kms{
+	color:#fff;
+	background:#2E8965;
+}
+
+.nav-kms .nav-menu>li>a:hover{
+	background-color:#E0E0E0;
+}
+
+.nav-kms .navbar-brand,.nav-kms .navbar-brand:hover{
+	color:#fff;
+}
+
+.nav-kms .navbar-nav>li>a{
+	color:#fff;
+}
+
+.nav-kms .kms-msg .grey{
+	background-color: grey;
+}
+.nav-kms .kms-msg>li>a:hover{
+	color:#fff;
+}
+
+.nav-kms .kms-msg .orange{
+	background-color:#90052f;
+	width:60px;
+	height:50px;
+}
+
+.nav-kms .kms-msg .purple{
+	background-color: purple;
+}
+
+.nav-kms .kms-msg .important{
+	background-color:#d15b47;
+}
+
+.nav-kms .kms-msg .green{
+	background-color: green;
+}
+
+.nav-kms .kms-msg .success{
+	background-color: #009100;
+}
+
+.menu{
+	border:1px solid #ccc;
+	padding-left:0px;
+	padding-right:0px;
+}
+.menu>ul>li{
+	border:0px;
+	border-bottom:1px solid #ccc;
+	
+}
+.menu>ul>li>a{
+	border:0px;
+	margin-bottom:1px;
+	margin-right:0px;
+}
+.menu>ul>li>a .menu-text{
+	margin-left:10px;
+}
+
+.menu>ul>li .active>a{
+	background-color:#fff;
+}
+
+.user-photo{
+	border-radius:100%;
+	border:2px solid #ccc;
+}
+
+.breadcrumb{
+	border-bottom:1px solid #ccc;
+	height:50px;
+	
+}
+
+.breadcrumb .form-control{
+	display:inline;
+	width:auto;
+}
+
+a{
+	cursor: pointer;
+}
+
+
+.btn-toolbar>.btn, .btn-toolbar>.btn-group, .btn-toolbar>.input-group{
+	margin-left:0px;
+}

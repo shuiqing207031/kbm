@@ -1,0 +1,24 @@
+.article-group{
+	margin-left:15px;
+	float:left;
+	
+}
+
+.article-group a,.article-group a:hover{
+	font-size:18px;
+	color:black;
+	font-weight:400;
+	margin:10px;
+	display:block;
+}
+
+.article-group .split-line{
+	border-bottom:1px solid #cccccc;
+	margin-bottom:5px;
+	width:75%;
+}
+
+.jumbotron{
+	padding:10px;
+	margin-bottom:5px;
+}
