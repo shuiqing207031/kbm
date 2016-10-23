@@ -46,6 +46,8 @@ public class Article extends BaseBean{
 	
 	@Column
 	private Integer status;
+
+	private String oneOfImagePath;
 	
 	public String getArticleId() {
 		return articleId;
@@ -142,5 +144,12 @@ public class Article extends BaseBean{
 	public void setPath(String path) {
 		this.path = path;
 	}
-	
+
+	public String getOneOfImagePath() {
+		return oneOfImagePath;
+	}
+
+	public void setOneOfImagePath(String oneOfImagePath) {
+		this.oneOfImagePath = oneOfImagePath;
+	}
 }

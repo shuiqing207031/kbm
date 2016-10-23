@@ -43,10 +43,10 @@ public class ViewAction {
 	//文库
 	@RequestMapping(value="articleBase")
 	public String articleBase(ModelMap m){
-		log.info("request articleBase ");
+		log.info("request articleBase 111");
 		String treeData = chnlService.getChannelTree();
 		m.addAttribute("treeData", treeData);
-		log.info("response treeData:{}",treeData);
-		return "/articleBase";
+		log.info("response treeData1:{}",treeData);
+		return "/doc/articleBase";
 	}
 }

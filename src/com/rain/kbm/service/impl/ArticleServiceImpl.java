@@ -71,8 +71,7 @@ public class ArticleServiceImpl implements ArticleService{
 		String imgPath = root_path+static_path+path+"/img/";
 		String htmlPath = root_path+static_path+path+"/html/";
 		String imgLinkPath = app_name+static_path+path+"/img/";
-		
-		
+
 		File file = new File(htmlPath,title+".html");
 		if(file.exists()){
 			file.delete();

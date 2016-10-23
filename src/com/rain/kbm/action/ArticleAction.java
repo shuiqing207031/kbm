@@ -68,7 +68,7 @@ public class ArticleAction {
 		articleId = articleId.trim();
 		Article article = articleService.queryByArticleId(articleId);
 		model.addAttribute("article", article);
-		return "/article";
+		return "/doc/article";
 	}
 	
 	/**
@@ -82,7 +82,7 @@ public class ArticleAction {
 			article = articleService.queryByArticleId(articleId);
 		} 
 		m.addAttribute("article", article);
-		return "/articleEdit";
+		return "/doc/articleEdit.ftl";
 	}
 	
 	

@@ -3,6 +3,7 @@ package com.rain.kbm.action;
 import java.util.List;
 import java.util.Map;
 
+import com.rain.kbm.pojo.Article;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,9 +30,10 @@ public class ChannelAction {
 			log.warn("lack of parameter");
 			return;
 		}
-		List<Map<String,Object>> list = channelService.queryArticle(chnlId);
+		List<Article> list = channelService.queryArticle(chnlId);
 		model.addAttribute("articles", list);
-		log.info("expand channel and the articles count is {}",list.size());
+		model.addAttribute("count",list.size());
+		log.info(" the articles count is {}",list.size());
 	}
 
 }

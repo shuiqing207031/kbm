@@ -1,4 +1,4 @@
-<#include "navbar.ftl" >
+<#include "../navbar.ftl" >
 <html>
   <head>   
     <title>KBM 知识库管理系统</title>

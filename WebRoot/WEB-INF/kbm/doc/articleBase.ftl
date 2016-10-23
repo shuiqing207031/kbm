@@ -1,4 +1,4 @@
-<#include "navbar.ftl" >
+<#include "../navbar.ftl" >
 <html>
 <head>   
 	<title>KBM 知识库管理系统</title>
@@ -14,7 +14,8 @@
 	<link rel="stylesheet" href="css/kms.css" />
 	<link rel="stylesheet" href="css/article-base.css" />
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jqthumb.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/ztree.all-3.5.js"></script>
 	<script type="text/javascript" src="js/ui.tree.js"></script>
 </head>
@@ -28,6 +29,17 @@
 				</div>
 				<ul id="ztree" class="ztree"></ul>
 			</div>
+            <div  class="col-lg-10" style="position:relative;height:100px;float:left;margin-top:5px;">
+				<div class="icon-article">
+               	 <img src="css/k.jpg" alt="km" class="img-rounded" style="width:200px;height:200px;">
+				</div>
+            </div>
+
+			<div>
+
+			</div>
+        </div>
+
 		</div>	
 	</div>
 </body>
@@ -37,6 +49,16 @@ var zNodes = ${treeData!'[]'} ;
 $(document).ready(function(){
     var t = $("#ztree");
     t = $.fn.zTree.init(t, setting, zNodes);
+
+
+    $('.icon-article img').jqthumb({
+        width:200,
+        height:200
+    });
+
+
+
+
 });
 </script>
 </html>	

@@ -10,6 +10,6 @@ public interface ChannelService {
 
 	public String getChannelTree();
 	
-	public List<Map<String,Object>> queryArticle(Integer chnlId);
+	public List<Article> queryArticle(Integer chnlId);
 	
 }

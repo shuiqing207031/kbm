@@ -55,10 +55,8 @@ var setting = {
                 return false;
             } else {
             	$.post("channle.do",{view:"queryArticle",chnlId:treeNode.treeId},function(data){
-            		alert(data.length);
-            		if (data.length>0){
-            			zTree.addNodes(treeNode,data);
-            			zTree.expandNode(treeNode,true,true,true);
+            		if (data.count>0){
+
             		}
             	},"json");
                 return true;
@@ -66,6 +64,12 @@ var setting = {
         }
     }
 };
+
+function drawArticleIcon(article){
+
+
+}
+
 
 
 function loadReady() {
