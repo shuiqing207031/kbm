@@ -22,7 +22,7 @@ public class ChannelAction {
 
 	@Autowired
 	private ChannelService channelService;
-	
+
 	@RequestMapping(params="view=queryArticle",method=RequestMethod.POST)
 	@ResponseBody
 	public void queryArticle(Integer chnlId,Model model){
