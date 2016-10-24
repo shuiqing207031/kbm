@@ -50,5 +50,5 @@ Temporary Items
 *.classpath
 *.project
 .settings/*
-*.class
+.WebRoot/WEB-INF/classes/*
 
